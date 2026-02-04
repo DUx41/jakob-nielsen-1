@@ -2,46 +2,42 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Legge di Nielsen | Tesi</title>
+    <title>La Legge di Nielsen | Banda</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container flex-nav">
+    <div class="container">
+        <header class="flex-nav">
             <div class="logo">Jakob Nielsen</div>
             <nav>
                 <a href="index.html">Slide 1: Biografia</a>
                 <a href="tesi.html" class="active">Slide 2: La Legge</a>
             </nav>
-        </div>
-    </header>
+        </header>
 
-    <main class="container">
-        <section class="tesi-header">
-            <span class="label red">ANALISI TECNICA</span>
-            <h1>Legge della Larghezza di Banda</h1>
-            <p>La previsione empirica sulla crescita di Internet formulata da Nielsen nel 1998.</p>
+        <section class="tesi-content">
+            <span class="badge">TESI SCIENTIFICA</span>
+            <h1>Larghezza di Banda Internet.</h1>
+            
+            <div class="formula-card">
+                <p style="text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem; margin-bottom: 20px; color: #888;">La Legge di Nielsen (1998)</p>
+                <h2>"La velocità cresce del 50% ogni anno"</h2>
+            </div>
+
+            <div class="grid">
+                <div class="card">
+                    <h3>Progressione</h3>
+                    <p>La banda raddoppia circa ogni 21 mesi. È una crescita più lenta rispetto alla potenza di calcolo (Legge di Moore).</p>
+                </div>
+                <div class="card">
+                    <h3>Analisi Dati</h3>
+                    <p>Questo scarto spiega perché la velocità della rete è il limite principale per l'esperienza utente moderna.</p>
+                </div>
+            </div>
         </section>
 
-        <div class="highlight-box">
-            <p>LA FORMULA SCIENTIFICA</p>
-            <h2>"La velocità di connessione cresce del 50% ogni anno"</h2>
-        </div>
-
-        <div class="info-grid">
-            <div class="info-item">
-                <img src="https://img.icons8.com/ios-filled/50/000000/graph-report.png" alt="Growth">
-                <h4>Raddoppio</h4>
-                <p>La banda raddoppia ogni 21 mesi. È una crescita costante da quasi 30 anni.</p>
-            </div>
-            <div class="info-item">
-                <img src="https://img.icons8.com/ios-filled/50/000000/stopwatch.png" alt="Speed">
-                <h4>Vs Moore</h4>
-                <p>La rete cresce più lentamente dei chip (Moore: 60%). Questo crea siti "pesanti".</p>
-            </div>
-        </div>
-    </main>
+        <footer>© 2026 Jakob Nielsen - Il Rigore dei Dati</footer>
+    </div>
 </body>
 </html>
