@@ -1,0 +1,86 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --font-inter: "Inter", sans-serif;
+    --spacing-50: 2rem;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-inter);
+    background-color: var(--white);
+    color: var(--black);
+    line-height: 1.5;
+}
+
+.is-layout-constrained {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.header-flex, .footer-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-50) 0;
+}
+
+.site-title a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    padding: 0;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+}
+
+.nav-menu a.current {
+    font-weight: 900;
+    border-bottom: 2px solid var(--black);
+}
+
+.main-heading {
+    font-size: clamp(3rem, 10vw, 6rem);
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    margin: 3rem 0 1rem;
+}
+
+.hero-sub {
+    font-size: 1.25rem;
+    margin-bottom: 4rem;
+    color: #555;
+}
+
+.post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+}
+
+.img-placeholder {
+    background-color: #f0f0f0;
+    aspect-ratio: 16/9;
+    border-radius: 4px;
+}
+
+.site-footer {
+    margin-top: 5rem;
+    border-top: 1px solid #eee;
+    font-size: 0.8rem;
+}
