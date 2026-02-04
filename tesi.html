@@ -2,31 +2,46 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <title>La Tesi | Jakob Nielsen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Legge di Nielsen | Tesi</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="wp-site-blocks">
-        <header class="site-header">
-            <div class="is-layout-constrained header-flex">
-                <h1 class="site-title"><a href="index.html">Jakob Nielsen</a></h1>
-                <nav>
-                    <ul class="nav-menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="tesi.html" class="current">La Tesi</a></li>
-                        <li><a href="contatti.html">Contatti</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+    <header class="header">
+        <div class="container flex-nav">
+            <div class="logo">Jakob Nielsen</div>
+            <nav>
+                <a href="index.html">Slide 1: Biografia</a>
+                <a href="tesi.html" class="active">Slide 2: La Legge</a>
+            </nav>
+        </div>
+    </header>
 
-        <main class="is-layout-constrained">
-            <h2 class="main-heading">Analisi del Dominio</h2>
-            <p class="hero-sub">Esplorazione metodologica e risultati della tesi sul rigore dei dati.</p>
-            <div class="content-body">
-                <p>In questa sezione verranno approfonditi i dati raccolti e la validazione della tesi scientifica.</p>
+    <main class="container">
+        <section class="tesi-header">
+            <span class="label red">ANALISI TECNICA</span>
+            <h1>Legge della Larghezza di Banda</h1>
+            <p>La previsione empirica sulla crescita di Internet formulata da Nielsen nel 1998.</p>
+        </section>
+
+        <div class="highlight-box">
+            <p>LA FORMULA SCIENTIFICA</p>
+            <h2>"La velocità di connessione cresce del 50% ogni anno"</h2>
+        </div>
+
+        <div class="info-grid">
+            <div class="info-item">
+                <img src="https://img.icons8.com/ios-filled/50/000000/graph-report.png" alt="Growth">
+                <h4>Raddoppio</h4>
+                <p>La banda raddoppia ogni 21 mesi. È una crescita costante da quasi 30 anni.</p>
             </div>
-        </main>
-    </div>
+            <div class="info-item">
+                <img src="https://img.icons8.com/ios-filled/50/000000/stopwatch.png" alt="Speed">
+                <h4>Vs Moore</h4>
+                <p>La rete cresce più lentamente dei chip (Moore: 60%). Questo crea siti "pesanti".</p>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

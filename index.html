@@ -3,48 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jakob Nielsen | Il Rigore dei Dati</title>
+    <title>Jakob Nielsen | Guru della UX</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="wp-site-blocks">
-        <header class="site-header">
-            <div class="is-layout-constrained header-flex">
-                <h1 class="site-title"><a href="index.html">Jakob Nielsen</a></h1>
-                <nav>
-                    <ul class="nav-menu">
-                        <li><a href="index.html" class="current">Home</a></li>
-                        <li><a href="tesi.html">La Tesi</a></li>
-                        <li><a href="contatti.html">Contatti</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+    <header class="header">
+        <div class="container flex-nav">
+            <div class="logo">Jakob Nielsen</div>
+            <nav>
+                <a href="index.html" class="active">Slide 1: Biografia</a>
+                <a href="tesi.html">Slide 2: La Legge</a>
+            </nav>
+        </div>
+    </header>
 
-        <main class="is-layout-constrained">
-            <section class="hero-section">
-                <h2 class="main-heading">Il Rigore dei Dati</h2>
-                <p class="hero-sub">Analisi, usabilità e tesi sull'esperienza utente nel dominio digitale.</p>
-            </section>
-
-            <div class="wp-block-query">
-                <ul class="post-grid">
-                    <li class="post-item">
-                        <div class="img-placeholder"></div>
-                        <h3 class="post-title">L'approccio empirico</h3>
-                        <p class="post-excerpt">Perché il rigore scientifico è l'unica via per un'usabilità reale e misurabile.</p>
-                    </li>
-                </ul>
+    <main class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <span class="label">PIONIERE DELLA UX</span>
+                <h1>Il Padre dell'Usabilità</h1>
+                <p>Nato nel 1957, Jakob Nielsen ha cambiato il modo in cui navighiamo sul web. Ha reso la tecnologia "umana" grazie al rigore dei dati scientifici.</p>
             </div>
-        </main>
-
-        <footer class="site-footer">
-            <div class="is-layout-constrained footer-flex">
-                <p>Jakob Nielsen © 2026</p>
-                <p>Archivio Scientifico Indipendente</p>
+            <div class="hero-image">
+                <img src="https://www.nngroup.com/media/people/photos/Jakob-Nielsen-2023.jpg.600x600_q85_autocrop_crop-smart_upscale.jpg" alt="Jakob Nielsen Portrait">
             </div>
-        </footer>
-    </div>
+        </section>
+
+        <div class="cards-grid">
+            <div class="card">
+                <img src="https://img.icons8.com/ios-filled/50/000000/organization.png" alt="Icon">
+                <h3>NN/Group</h3>
+                <p>Fondatore della società di consulenza leader mondiale nella User Experience.</p>
+            </div>
+            <div class="card">
+                <img src="https://img.icons8.com/ios-filled/50/000000/idea.png" alt="Icon">
+                <h3>10 Euristiche</h3>
+                <p>I principi universali per creare interfacce che chiunque sa usare al primo colpo.</p>
+            </div>
+            <div class="card">
+                <img src="https://img.icons8.com/ios-filled/50/000000/law.png" alt="Icon">
+                <h3>Legge di Jakob</h3>
+                <p>"Gli utenti preferiscono che il tuo sito funzioni come tutti gli altri siti che conoscono".</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Analisi Scientifica © 2026 — Il Rigore dei Dati</p>
+    </footer>
 </body>
 </html>
